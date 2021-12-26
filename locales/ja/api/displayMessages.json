@@ -1,0 +1,167 @@
+{
+	"httpMethodNotAllowed": "HTTPメソッド \"{{method}}\" はこのエンドポイントでは許可されません。",
+	"endpointNotFound": "エンドポイントが存在しません。",
+	"errorOccured": "エラーが発生しました。",
+	"missingParameter": "{{parameter}}がありません。",
+	"invalidParameter": "無効な{{parameter}}です。",
+	"invalidParameterType": "{{parameter}} は {{type}} でなければいけません。",
+	"parameterTooLong": "{{parameter}} は {{maxLen}} 字より長くできません。",
+	"parameterTooShort": "{{parameter}} は {{minLen}} 字より短くできません。",
+	"parameterNotBetween": "{{parameter}} は {{min}} から {{max}} の間でないといけません。",
+	"discordAccountNotLinked": "Discordとのアカウント連携が必要です。",
+	"notLoggedIn": "このエンドポイントを利用するにはログインする必要があります。",
+	"alreadyLoggedIn": "あなたはすでにログインしています。",
+	"invalidUsernameCharacters": "ユーザー名には英数字のみ使用できます。",
+	"usernameTaken": "そのユーザー名は既に使用されています。",
+	"passwordMismatch": "パスあーどが一致しません。",
+	"changePasswordSuccess": "パスワードの変更に成功しました。",
+	"resourceNotFound": "その {{property}} を持つ {{resource}} が見つかりませんでした。",
+	"resourceExists": "この {{property}} を持つ {{resource}} は既に存在します。",
+	"premiumFeature": "{{feature}} を使用するには、アップグレードされたサブスクリプションが必要です。",
+	"userNotFound": "そのユーザーは見つかりませんでした。",
+	"fileTooLarge": "ファイルが大きすぎます。 最大容量は {{size}}です。",
+	"invalidFileFormat": "ファイルのフォーマットが無効です。",
+	"bodyTooLarge": "提供されるボディが大きすぎます。",
+	"bodyMalformed": "提供されたボディが不正です。",
+	"authenticationApi": {
+		"accountBanned": "あなたのアカウントはBANされました。 理由: {{reason}}",
+		"invalidForgotPasswordToken": "パスワードを忘れた もしくはTokenが無効 あるいは有効期限切れです。",
+		"passwordResetLinkSent": "パスワードリセットのリンクをあなたのDiscordのDMに送信しました。このリンクは24時間後に失効します。",
+		"suspectedMultiAccounting": "マルチアカウントになっている可能性があるようです。間違いだと思われる方は、管理者にご連絡ください。",
+		"noReasonProvided": "警告はありません。",
+		"invalidInviteCode": "招待コードが存在しない、または既に使用されています。",
+		"refreshTokenMismatch": "リフレッシュトークンが提供されたトークンと一致しませんでした。",
+		"passwordResetRequired": "パスワードの再設定が必要です",
+		"notBetaUser": "このサイトにアクセスするには、ベータ版ユーザーであることが必要です。",
+		"mfaCodeRequired": "MFAコードが必要です",
+		"failedCaptcha": "CAPTCHAに失敗しました。もう一度試してください。"
+	},
+	"collectionsApi": {
+		"invalidPublicityType": "パブリシティは\"public\" または \"private\"でなければいけません。",
+		"collectionNotEmpty": "削除する前にコレクションを空にする必要があります"
+	},
+	"discordApi": {
+		"accountTooYoung": "あなたのDiscordアカウントは、リンクするにはDiscordアカウントの作成日が若すぎます。",
+		"accountNotFound": "Discordを使用した認証ができませんでした。そのDiscordアカウントに関連するアカウントはありません"
+	},
+	"domainGroupsApi": {
+		"usersMustBeArray": "ユーザはUUIDの配列である必要があります",
+		"noValidUsers": "ユーザーには少なくとも1つの有効なユーザーUUIDが含まれている必要があります",
+		"invalidUserIds": "無効なユーザーIDが入力されました",
+		"groupInUse": "このアクセスグループは現在ドメインで使用されているため、他のグループを使用するように設定してから削除してください。"
+	},
+	"domainsApi": {
+		"invalidTld": "このTLDを使用したドメインは受け付けておりません。",
+		"deletedDomain": "ドメインの削除に成功しました"
+	},
+	"imagesApi": {
+		"futureTimestamp": "expiresAt は、将来のタイムスタンプでなければなりません",
+		"unauthenticated": "このエンドポイントを使用するには、認証が必要です",
+		"invalidUploadKey": "アップロードキーが無効です。キーを生成しましたか？",
+		"subscriptionMaxFileSize": "ファイルがサブスクリプションの最大ファイルサイズ {{size}} を超えています",
+		"subscriptionMaxStorage": "ストレージの制限に達しました。一部のファイルを削除するか、サブスクリプションのアップグレードをご検討ください。",
+		"missingUploadPreferences": "ドメインが見つかりません。設定ページでアップロードの設定をお願いします。",
+		"userBanned": "あなたは現在BAmされています。これが誤りであると思われる場合は、サポートに連絡してください",
+		"unrecognisedIp": "IPアドレスが認識されません。ウェブサイトからログインして、もう一度お試しください。",
+		"missingExtension": "ファイルには拡張子が必要です",
+		"premiumFileType": "このファイル形式をアップロードするには、アップグレードされたサブスクリプションが必要です。",
+		"spamUploadBan": "画像のアップロードが早すぎたためBANされました。サポートに連絡してください。",
+		"noDeletePermissions": "あなたは他のユーザーの画像を削除する権限を持っていません。",
+		"wipeInProgress": "あなたの画像はすでに消去中です ({{percentage}}% 完了)",
+		"noImagesInCollection": "提供されたコレクション内に画像がありません",
+		"noValidImageIds": "有効な画像IDが提供されていません。",
+		"noImagesTo": "{{action}}に対する画像がありません。",
+		"archiveInProgress": "すでに処理中のアーカイブがあります",
+		"archiveAlreadyRequested": "過去7日以内にアーカイブをリクエストしたことがあります",
+		"reportOwnImage": "自分の画像を報告することはできません",
+		"imageAlreadyReported": "この画像はすでに報告されています",
+		"cannotSetFileAsShowcase": "ショーケースとして設定できるのは、画像または動画のみです。"
+	},
+	"mailAccountsApi": {
+		"invalidDomain": "メール内のドメインが無効です",
+		"maxAccounts": "一度に持てるメールアカウント数の上限に達しました",
+		"maxAliases": "一度に設定できるメールエイリアスの数が上限に達しています。",
+		"emailInUse": "すでに使用されているEメールアドレスです",
+		"aliasExists": "そのメールアドレスを持つエイリアスがすでに存在します",
+		"invalidCharacters": "メールアドレスに無効な文字が含まれています"
+	},
+	"notificationsApi": {
+		"alreadyMarkedAsRead": "その通知はすでに既読にされています。"
+	},
+	"pastesApi": {
+		"unsupportedLang": "提供されているシンタックスハイライト言語がサポートされていない",
+		"unsupportedType": "提供されたペーストの種類はサポートされていません",
+		"privateAndPasswordProtected": "ペーストは、プライベートとパスワードの両方を保護することはできません",
+		"successfullyWiped": "ペーストの一括削除({{count}}個)に成功しました。",
+		"passwordRequired": "このペーストは、復号化するためにパスワードが必要です",
+		"incorrectPassword": "パスワードが違います",
+		"notOwnPaste": "削除できるのは自分のペーストのみです"
+	},
+	"shortenUrlApi": {
+		"invalidProtocol": "URLのプロトコルが無効です。HTTP または HTTPS を使用する必要があります",
+		"invalidIDCharacters": "IDには英数字のみ使用可能です",
+		"selfRedirect": "URLは自分自身にリダイレクトできません",
+		"successfullyWiped": "短縮URLの一括削除({{count}}個)に成功しました。",
+		"notOwnShortenedUrl": "削除できるのは、自分の短縮URLのみです"
+	},
+	"subscriptionsApi": {
+		"notSelected": "購読グループが選択されていません",
+		"activeSubscription": "すでにアクティブなサブスクリプションをお持ちです",
+		"groupMismatch": "提供されたユーザーは現在{{groupName}}プランに加入しているため、このプランをプレゼントすることはできません。",
+		"selfGift": "月額プランを自分にプレゼントすることはできませんので、代わりに月額プラン管理ページで月数を追加してください。",
+		"userNotGiftable": "このユーザーには今すぐにはプレゼントできません",
+		"noSubscriptionAddMonths": "月数を追加するアクティブな契約はありません",
+		"noSubscriptionCancel": "解約するアクティブな契約はありません",
+		"noSubscriptionResume": "再開するためのアクティブなサブスクリプションをお持ちでない方",
+		"pendingPlanChange": "すでにプラン変更が保留されている場合",
+		"noDefaultPaymentMethod": "本契約を継続するには、少なくとも1つの支払い方法が必要です",
+		"cannotPreviewFree": "無料プランへの変更はプレビューできませんので、代わりに解約してください",
+		"cannotPreviewNoSubscription": "アクティブなサブスクリプションがない場合、変更をプレビューすることはできません",
+		"cannotPreviewSamePlan": "現在ご利用中のプランの変更をプレビューすることはできません",
+		"cannotChangeAddedMonths": "現在契約しているプランに月数を追加しているため、今すぐにはプランを変更できません。プランの変更は{{date}}以降に可能です。",
+		"cannotChangeGifted": "プレゼントされたサブスクリプションを使用しているため、今すぐプランを変更することはできません。プランの変更は{{date}}以降に可能です。"
+	},
+	"themesApi": {
+		"noDeletePermissions": "このテーマを削除する権限がありません"
+	},
+	"userApi": {
+		"privateProfile": "このユーザーのプロフィールは非公開です",
+		"noValidProperties": "有効なプロパティが提供されていません",
+		"multiLevelSubdomains": "多階層サブドメインには対応していません。.の代わりに-を使用します。",
+		"subdomainsNotAllowed": "このドメインではサブドメインが許可されていません。",
+		"maxDomainCount": "一度に選択できるドメインは{{count}}個までです。",
+		"minDomainCount": "一度に2つ以上のドメインを選択する必要があります。",
+		"invalidDomain": "{domain}} は有効なドメインではありません。",
+		"invalidSubdomainDomain": "サブドメインは{{domain}}では許可されていません。",
+		"autoChanceZero": "提供された値は、「自動」チャンスが0%になります。",
+		"randomChanceNot100": "ランダムドメインチャンス値の合計が100である必要があります",
+		"invalidUrl": "{プロパティ}}には、有効なHTTPまたはHTTPSのURLを指定する必要があります",
+		"invalidEmbedFields": "すべての埋め込みフィールドを空白にすることはできません。いくつかのフィールドを埋めるか、Discord Embedsを無効にしてください。",
+		"noAuthorOrTitle": "Discordを正しく埋め込むには、著者名またはタイトルが必要です。",
+		"invalidTimeformat": "timeformat は 12時間制 または 24時間制 のいずれかでなければなりません。",
+		"cropAreaExceedsSize": "クロップ領域が画像サイズを超えてはいけません",
+		"usernameChangeUnavailable": "あなたはすでに7日以内にユーザー名を変更しています",
+		"unsupportedLanguage": "サポートされていない言語です",
+		"invalidConfigType": "無効なconfigです",
+		"unprocessableGif": "このGIFを処理することができませんでした",
+		"fileAgeNegative": "ファイルエイジは負の値にはできません",
+		"fileAgeTooBig": "ファイル年齢は12ヶ月を超えることはできません"
+	},
+	"userApis": {
+		"MFAApi": {
+			"mfaNotInitalised": "MFAが初期化されていません",
+			"mfaNotEnabled": "MFAが有効になっていません"
+		},
+		"paymentApi": {
+			"atLeastOnePaymentMethodRequired": "少なくとも1つの支払い方法が有効であることが必要です。",
+			"defaultPaymentMethod": "デフォルトとしてマークされている支払い方法は削除できません",
+			"amountDecimalPlaces": "金額は小数点二位以下は不可能です",
+			"amountTooSmall": "金額は{{amount}}を下回ることはできません",
+			"amountTooLarge": "金額は{{amount}}より大きくはできません"
+		},
+		"uploadPresetsApi": {
+			"missingParameters": "リクエストに不足しているパラメータがあります",
+			"maxPresets": "アップロード環境設定プリセットは、一度に10個までしか設定できません。"
+		}
+	}
+}

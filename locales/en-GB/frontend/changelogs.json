@@ -1,0 +1,11 @@
+{
+	"changelogsHeader": "Keep track of new features, changes, and bug fixes below!",
+	"viewChanges": "View {{count}} changes",
+	"releasedAgo": "Released {{timespan}}",
+	"added": "Added",
+	"fixed": "Fixed",
+	"removed": "Removed",
+	"none": "None",
+	"changelogNotFound": "Changelog Not Found",
+	"backToList": "Click <a href=\"/changelogs\">here</a> to go back to the list of changelogs."
+}

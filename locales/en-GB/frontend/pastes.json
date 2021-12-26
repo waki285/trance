@@ -1,0 +1,9 @@
+{
+	"pasteViews": "{{count}} Views",
+	"pasteDate": "Uploaded {{timestamp}}",
+	"passwordRequired": "A password is required to view this paste",
+	"passwordRequiredEdit": "A password is required to edit this paste",
+	"blankPassword": "The password cannot be blank",
+	"incorrectPassword": "Incorrect password provided",
+	"errorDecrypting": "An error occured when decrypting the paste"
+}

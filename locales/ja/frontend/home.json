@@ -1,0 +1,15 @@
+{
+	"motd": "今日のひとこと",
+	"uploadsToday": "今日のアップロード数",
+	"loggedInToday": "今日のログイン数",
+	"registeredToday": "今日の登録数",
+	"quickActions": "クイックアクション",
+	"readTheRules": "ルールを読む",
+	"getYourConfigs": "コンフィグを取得する",
+	"changeEmbedSettings": "Embed設定の変更",
+	"updateDomainPreferences": "ドメイン環境設定の更新",
+	"purchaseASubscription": "サブスクリプションの購入",
+	"helpSupportUs": "私たちの活動にご協力いただくと同時に、限定機能をご利用いただくことができます。",
+	"plansDescription": "プラン数{{planCount}}のプランを提供しています。",
+	"dailyUploads": "毎日のアップロード数"
+}

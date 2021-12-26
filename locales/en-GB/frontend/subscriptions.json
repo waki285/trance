@@ -1,0 +1,14 @@
+{
+	"comparePlans": "Below you can compare the different plans available and choose to upgrade to gain access to new features.",
+	"acceptCard": "We currently accept most credit/debit card payments.",
+	"useAReseller": "If you'd like to purchase a subscription through another payment method, feel free to check our <a href=\"https://discord.upload.systems\" target=\"_blank\">Discord Server</a> for resellers.",
+	"viewDetails": "You can view more specific details of the paid features on offer <a href=\"/subscriptions/details\">here</a>.",
+	"subscriptionFeatures": "Subscription Features",
+	"inDepth": "This page gives a more in-depth look into the features included as part of our paid plans.",
+	"featuresBelow": "Below each feature you can see which plan(s) that feature is included in.",
+	"availableIn": "Available in",
+	"incrementalPlan": "Incremental based on plan",
+	"selectThisPlan": "Select This Plan",
+	"selectAPlan": "Select A Plan",
+	"proceedToPayment": "Proceed to Payment"
+}

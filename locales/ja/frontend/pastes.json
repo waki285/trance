@@ -1,0 +1,9 @@
+{
+	"pasteViews": "{{count}} 閲覧済み",
+	"pasteDate": "アップロード日 {{timestamp}}",
+	"passwordRequired": "このペーストを見るにはパスワードが必要です",
+	"passwordRequiredEdit": "このペーストを編集するには、パスワードが必要です",
+	"blankPassword": "パスワードは空白にできません",
+	"incorrectPassword": "提供されたパスワードが正しくありません",
+	"errorDecrypting": "ペーストを復号化する際にエラーが発生しました。"
+}

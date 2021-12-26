@@ -1,0 +1,10 @@
+{
+	"donateForInvites": "Donate for Invites",
+	"donateHeader": "Help support the growth of the service and receive invites to share with friends!",
+	"invitesAddedShortly": "Your invite(s) will be added shortly",
+	"processPaymentFailure": "Something went wrong processing your payment",
+	"noDonationAmount": "You must provide an amount to donate",
+	"minimumDonationAmount": "The minimum donation amount is $2.00",
+	"maximumDonationAmount": "The maximum donation amount is $50.00",
+	"selectDonationAmount": "Select how much you'd like to donate below. The number of invites you will receive is shown on the right."
+}

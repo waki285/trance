@@ -1,0 +1,11 @@
+{
+	"changelogsHeader": "新機能、変更点、バグフィックスは下記からご確認ください。",
+	"viewChanges": "{{count}} 回の変更点を見る",
+	"releasedAgo": "発売{{timespan}}。",
+	"added": "追加",
+	"fixed": "修正",
+	"removed": "削除",
+	"none": "なし",
+	"changelogNotFound": "変更点が存在しません",
+	"backToList": "<a href=\"/changelogs\">こちら</a>をクリックすると、変更履歴の一覧に戻ります。"
+}

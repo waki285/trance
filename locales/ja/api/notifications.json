@@ -1,0 +1,122 @@
+{
+	"userBanned": {
+		"title": "あなたはBANされました",
+		"body": "あなたは<a href='{{- host}}/user/{{bannerUid}}'> {{bannerUsername}}からBANされました。 </a> 理由は \"{{banReason}}\"です。"
+	},
+	"userUnbanned": {
+		"title": "あなたのBANが解除されました",
+		"body": "あなたは<a href='{{- host}}/user/{{bannerUid}}'> {{bannerUsername}}からBAN解除されました。 </a> 理由は \"{{unbanReason}}\"です。"
+	},
+	"subscriptionEnded": {
+		"title": "サブスクリプションが終了",
+		"body": "あなたのサブスクリプションが終了しますた。"
+	},
+	"domainApproved": {
+		"title": "ドメインが承認されました！",
+		"body": {
+			"pendingNameservers": "お客様のドメイン{{domain}}は承認されました。更新されたネームサーバーが検出されると、使用できるようになります",
+			"available": "ドメイン{{domain}}が承認され、使用できるようになりました！"
+		}
+	},
+	"domainDeclined": {
+		"title": "ドメインが拒否されました！",
+		"body": "あなたのドメイン{{domain}} が拒否されました。理由は \"{{reason}}\"です。"
+	},
+	"subscriptionRenewalFailed": {
+		"title": "サブスクリプションの更新に失敗しました。",
+		"body": {
+			"error": "カード番号の末尾が{{last4}}で、支払いに失敗したため、購読を自動更新できませんでした。<a href='/user/settings/subscriptions'> サブスクリプション管理</a> ページに移動して解決してください。",
+			"authenticationRequired": "支払い方法に追加認証が必要なため、自動更新できませんでした。<a href='/user/settings/subscriptions'> サブスクリプション管理</a> ページに移動して解決してください。"
+		}
+	},
+	"subscriptionRenewed": {
+		"title": "サブスクリプションが更新されました",
+		"body": "お客様のカードの末尾が{{last4}}の場合、{{planName}}に対して{{amount}}が課金されました。ご協力ありがとうございました。"
+	},
+	"subscriptionRenewalReminder": {
+		"title": "念のためです！",
+		"body": "あなたのサブスクリプションはあと３日で更新されます"
+	},
+	"giftedSubscription": {
+		"title": "サブスクリプションが贈られてきました！",
+		"body": "{{gifter}}さんから{{planName}}が贈られてきました！"
+	},
+	"donationComplete": {
+		"title": "寄付官僚",
+		"body": "寄付をありがとうございました。あなたのアカウントに{{inviteCount}}個の招待状が割り当てられました。"
+	},
+	"imageArchiveComplete": {
+		"title": "画像アーカイブ完成しました",
+		"body": "画像アーカイブが完成し、<a href='/user'>ユーザーページ</a>からダウンロードできるようになりました。{{failedImagesWarning}} 次の画像アーカイブは7日後に利用可能です。",
+		"failedImagesWarning": "残念ながら、{{totalCount}}枚の画像のうち{{failedCount}}枚は失敗し、含まれていません。"
+	},
+	"imageArchiveFailed": {
+		"title": "画像のアーカイブに失敗しました！",
+		"body": "画像のアーカイブに何か問題が発生しました。この問題が解決しない場合は、サポートにお問い合わせください。"
+	},
+	"imageWipe": {
+		"title": {
+			"fullWipe": "画像一括削除官僚",
+			"partialWipe": "画像の削除に完了しました。"
+		},
+		"body": {
+			"adminWipe": "管理者によって画像が消去されました",
+			"fullWipe": "あなたの画像は消去されました。{imageCount}}個の画像が削除されました。",
+			"partialWipe": "{imageCount}}個の画像が正常に削除されました。"
+		}
+	},
+	"accountOwnershipVerification": {
+		"title": "アカウント所有者確認",
+		"body": "スタッフがあなたのアカウントの認証コードを要求しています。所有権を証明するために、コード「{verificationCode}}」をスタッフに提示してください。このコードを要求していない場合は、この通知を無視して、このコードを誰にも教えないでください。<br> upload.systemsのスタッフは、upload.systems Discordサーバーのチケット内、または@upload.systemsのメールアドレスからのメールでのみ連絡することに注意してください。"
+	},
+	"inviteAssigned": {
+		"title": "招待コードが配られました！",
+		"body": "あなたのアカウントに招待コードが割り当てられています。<a href='/user'>ユーザー</a>ページの一番下に表示されています。"
+	},
+	"strikeAdded": {
+		"title": "あなたは警告されました",
+		"body": "理由「{{reason}}」により、あなたのアカウントにストライキが追加されました。これは警告番号{{strikeNum}}です。警告が3回に達すると、BANされます。"
+	},
+	"profilePictureRemoved": {
+		"title": "プロフィール画像が削除されました",
+		"body": "あなたのプロフィール画像は管理者によって削除されました"
+	},
+	"descriptionRemoved": {
+		"title": "概要欄が削除されました",
+		"body": "あなたのが概要欄は管理者によって削除されました"
+	},
+	"imageDeleted": {
+		"title": "画像が削除されました",
+		"body": "管理者があなたの画像を1つ削除しました。ルールやToSに違反している可能性が高く、ユーザーから報告されたものです。"
+	},
+	"themeApproved": {
+		"title": "テーマが承認されました！",
+		"body": "あなたのテーマが承認され、<a href='/themes'>テーマギャラリー</a>からダウンロードできるようになりました。"
+	},
+	"themeDeclined": {
+		"title": "テーマが拒否されました！",
+		"body": "あなたのテーマは理由 \"{{reason}}\" のために拒否されました。"
+	},
+	"domainRemovedUploadPreferences": {
+		"title": {
+			"single": "あなたのドメインが削除されました",
+			"random": "ランダムドメインの1つが削除されました"
+		},
+		"body": {
+			"single": "\"{{domain}}\" は利用可能なドメインオプションから削除されたため、ドメインは \"{{newDomain}}\" にリセットされました。",
+			"random": "\"{{domain}}\" は利用可能なドメインオプションから削除されたため、ランダムドメインリストからも削除されました。"
+		}
+	},
+	"showcaseImageRemoved": {
+		"title": "ショーケースの画像が削除されました",
+		"body": "管理者があなたのショーケース画像を削除しました"
+	},
+	"domainTransferred": {
+		"title": "ドメインがあなたに移管されました",
+		"body": "管理者がドメイン「{{domain}}」をあなたのアカウントに移管しました。このドメインは、<a href=\"/domains/manage\">ドメイン管理</a>ページで管理できるようになりました。"
+	},
+	"inviteUsed": {
+		"title": "招待コードが使用されました！",
+		"body": "あなたの招待コード \"{{code}}\" は <a href='{{- host}}/user/{userUid}}'> {{username}}</a> によって使用されています。"
+	}
+}

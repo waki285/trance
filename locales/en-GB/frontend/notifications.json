@@ -1,0 +1,7 @@
+{
+	"allNotifications": "All Notifications",
+	"notificationCount": "{{totalCount}} Notifications ({{unreadCount}} Unread)",
+	"all": "All",
+	"unread": "Unread",
+	"read": "Read"
+}

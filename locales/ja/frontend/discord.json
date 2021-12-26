@@ -1,0 +1,17 @@
+{
+	"todayAt": "Today at",
+	"staff": "Discord Staff",
+	"partner": "Partnered Server Owner",
+	"hypesquad": "HypeSquad Events",
+	"developer": "Early Verified Bot Developer",
+	"earlySupporter": "Early Supporter",
+	"nitro": "Discord Nitro",
+	"bugHunter1": "Discord Bug Hunter",
+	"bugHunter2": "Discord Bug Hunter",
+	"bravery": "HypeSquad Bravery",
+	"brilliance": "HypeSquad Brilliance",
+	"balance": "HypeSquad Balance",
+	"embedFieldsBlank": "すべての埋め込みフィールドを空白にすることはできません。いくつかのフィールドを埋めるか、Discord Embedsを無効にしてください。",
+	"noEmbedAuthorTitle": "Discordを正しく埋め込むには、著者名またはタイトルが必要です。",
+	"noDiscordConnected": "Discordに接続されていません"
+}

@@ -1,0 +1,122 @@
+{
+	"userBanned": {
+		"title": "You have been banned",
+		"body": "You have been banned by <a href='{{- host}}/user/{{bannerUid}}'> {{bannerUsername}}</a> with reason \"{{banReason}}\""
+	},
+	"userUnbanned": {
+		"title": "You have been unbanned",
+		"body": "You have been unbanned by <a href='{{- host}}/user/{{bannerUid}}'> {{bannerUsername}}</a> with reason \"{{unbanReason}}\""
+	},
+	"subscriptionEnded": {
+		"title": "Subscription ended",
+		"body": "Your subscription has ended"
+	},
+	"domainApproved": {
+		"title": "Domain approved!",
+		"body": {
+			"pendingNameservers": "Your domain {{domain}} has been approved and will be available for use once updated nameservers have been detected!",
+			"available": "Your domain {{domain}} has been approved and can now be used!"
+		}
+	},
+	"domainDeclined": {
+		"title": "Domain declined!",
+		"body": "Your domain {{domain}} has been declined with reason \"{{reason}}\""
+	},
+	"subscriptionRenewalFailed": {
+		"title": "Subscription renewal failed",
+		"body": {
+			"error": "We couldn't automatically renew your subscription because payment failed on card ending in {{last4}}. Head to the <a href='/user/settings/subscriptions'> subscription management</a> page to resolve.",
+			"authenticationRequired": "We couldn't automatically renew your subscription because your payment method required additional authentication. Head to the <a href='/user/settings/subscriptions'> subscription management</a> page to resolve."
+		}
+	},
+	"subscriptionRenewed": {
+		"title": "Your subscription has been renewed",
+		"body": "Your card ending {{last4}} has been charged {{amount}} for {{planName}}. Thank you for your support."
+	},
+	"subscriptionRenewalReminder": {
+		"title": "Just a reminder!",
+		"body": "Your subscription will renew in 3 days"
+	},
+	"giftedSubscription": {
+		"title": "Gifted subscription!",
+		"body": "You have been gifted a {{planName}} subscription by {{gifter}}"
+	},
+	"donationComplete": {
+		"title": "Donation complete!",
+		"body": "Thank you for your donation! {{inviteCount}} invites have been assigned to your account."
+	},
+	"imageArchiveComplete": {
+		"title": "Image archive complete!",
+		"body": "Your image archive has been completed and can now be downloaded from your <a href='/user'>user page</a>.{{failedImagesWarning}} Your next image archive is available in 7 days.",
+		"failedImagesWarning": "Unfortunately, {{failedCount}} of {{totalCount}} images failed and are not included."
+	},
+	"imageArchiveFailed": {
+		"title": "Image archive failed!",
+		"body": "Something went wrong archiving your images. If this issue persists, please contact support."
+	},
+	"imageWipe": {
+		"title": {
+			"fullWipe": "Image wipe complete",
+			"partialWipe": "Image deletion complete"
+		},
+		"body": {
+			"adminWipe": "Your images have been wiped by an admin",
+			"fullWipe": "Your images have been wiped. {{imageCount}} images have been deleted.",
+			"partialWipe": "{{imageCount}} images have been successfully deleted"
+		}
+	},
+	"accountOwnershipVerification": {
+		"title": "Account ownership verification",
+		"body": "A staff member has requested an account verification code for your account. To prove ownership, please provide the code \"{{verificationCode}}\" to the member of staff. If you did not request this, please ignore this notification and do not share this code with anyone. <br> Please note, upload.systems staff will only contact you within a ticket in the upload.systems Discord server, or via email from an @upload.systems email address."
+	},
+	"inviteAssigned": {
+		"title": "Invite assigned!",
+		"body": "You've had an invite assigned to your account. You can view it at the bottom of the <a href='/user'>user</a> page."
+	},
+	"strikeAdded": {
+		"title": "You have been striked",
+		"body": "A strike has been added to your account for reason \"{{reason}}\". This is strike number {{strikeNum}}. If you reach 3 strikes, you will be banned."
+	},
+	"profilePictureRemoved": {
+		"title": "Profile picture removed",
+		"body": "Your profile picture has been removed by an admin"
+	},
+	"descriptionRemoved": {
+		"title": "Description removed",
+		"body": "Your profile description has been removed by an admin"
+	},
+	"imageDeleted": {
+		"title": "Image delete",
+		"body": "An admin has deleted one of your images. It was likely in violation of our rules or ToS and was reported by a user."
+	},
+	"themeApproved": {
+		"title": "Theme approved!",
+		"body": "Your theme has been approved and can now be downloaded from the <a href='/themes'>theme gallery</a>."
+	},
+	"themeDeclined": {
+		"title": "Theme declined!",
+		"body": "Your theme has been declined for reason \"{{reason}}\""
+	},
+	"domainRemovedUploadPreferences": {
+		"title": {
+			"single": "Your domain has been removed",
+			"random": "One of your random domains has been removed"
+		},
+		"body": {
+			"single": "\"{{domain}}\" has been removed from the available domain options, so your domain has been reset to \"{{newDomain}}\"",
+			"random": "\"{{domain}}\" has been removed from the available domain options, so it has been removed from your random domains list"
+		}
+	},
+	"showcaseImageRemoved": {
+		"title": "Your showcase image has been removed",
+		"body": "An admin has removed your showcase image"
+	},
+	"domainTransferred": {
+		"title": "A domain has been transferred to you!",
+		"body": "An admin has transferred the domain \"{{domain}}\" to your account. You can now manage this domain on the <a href=\"/domains/manage\">manage domains</a> page."
+	},
+	"inviteUsed": {
+		"title": "Invite used!",
+		"body": "Your invite \"{{code}}\" has been used by <a href='{{- host}}/user/{{userUid}}'> {{username}}</a>"
+	}
+}

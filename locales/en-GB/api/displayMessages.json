@@ -1,0 +1,167 @@
+{
+	"httpMethodNotAllowed": "The HTTP method \"{{method}}\" is not allowed on this endpoint",
+	"endpointNotFound": "Endpoint not found",
+	"errorOccured": "An error occured",
+	"missingParameter": "Missing {{parameter}}",
+	"invalidParameter": "Invalid {{parameter}}",
+	"invalidParameterType": "{{parameter}} must be a {{type}}",
+	"parameterTooLong": "{{parameter}} cannot be longer than {{maxLen}} characters",
+	"parameterTooShort": "{{parameter}} must be at least {{minLen}} characters",
+	"parameterNotBetween": "{{parameter}} must be between {{min}} and {{max}}",
+	"discordAccountNotLinked": "A Discord account must be linked",
+	"notLoggedIn": "You must be logged in to use this endpoint",
+	"alreadyLoggedIn": "You are already logged in",
+	"invalidUsernameCharacters": "Username can only contain English alphanumeric characters",
+	"usernameTaken": "Username already taken",
+	"passwordMismatch": "Passwords do not match",
+	"changePasswordSuccess": "Successfully changed password",
+	"resourceNotFound": "A {{resource}} with that {{property}} could not be found",
+	"resourceExists": "A {{resource}} with this {{property}} already exists",
+	"premiumFeature": "You require an upgraded subscription to use {{feature}}",
+	"userNotFound": "That user could not be found",
+	"fileTooLarge": "File too large. Max file size is {{size}}",
+	"invalidFileFormat": "Invalid file format",
+	"bodyTooLarge": "The provided body is too large",
+	"bodyMalformed": "The provided body is malformed",
+	"authenticationApi": {
+		"accountBanned": "Your account has been banned. Reason: {{reason}}",
+		"invalidForgotPasswordToken": "Forgot password token was either invalid or has expired",
+		"passwordResetLinkSent": "Attempted to send a password reset link to your Discord DMs. This link will expire in 24 hours.",
+		"suspectedMultiAccounting": "It seems like you might be multi-accounting. Please contact an admin if you believe this is a mistake.",
+		"noReasonProvided": "No reason provided",
+		"invalidInviteCode": "Invite code doesn't exist or has already been used",
+		"refreshTokenMismatch": "The refresh token did not match the token provided",
+		"passwordResetRequired": "You must reset your password",
+		"notBetaUser": "You must be a beta user to access this website",
+		"mfaCodeRequired": "MFA code is required",
+		"failedCaptcha": "Failed captcha, please try again"
+	},
+	"collectionsApi": {
+		"invalidPublicityType": "Publicity must be \"public\" or \"private\"",
+		"collectionNotEmpty": "The collection must be empty before deleting"
+	},
+	"discordApi": {
+		"accountTooYoung": "Your Discord account is too young to be linked",
+		"accountNotFound": "Couldn't authenticate using Discord. No account is associated with that Discord account"
+	},
+	"domainGroupsApi": {
+		"usersMustBeArray": "Users must be an array of UUIDs",
+		"noValidUsers": "Users must contain at least 1 valid user UUID",
+		"invalidUserIds": "Invalid user ID(s) were provided",
+		"groupInUse": "This access group is currently used by a domain, please set these to use another group before deleting"
+	},
+	"domainsApi": {
+		"invalidTld": "We are not accepting domains with this TLD, sorry",
+		"deletedDomain": "Successfully deleted domain"
+	},
+	"imagesApi": {
+		"futureTimestamp": "expiresAt must be a timestamp in the future",
+		"unauthenticated": "You must be authenciated to use this endpoint",
+		"invalidUploadKey": "Invalid upload key. Have you generated a key?",
+		"subscriptionMaxFileSize": "File exceeds your subscription's maximum file size of {{size}}",
+		"subscriptionMaxStorage": "You have reached your storage limit. Please delete some files or consider upgrading your subscriptions.",
+		"missingUploadPreferences": "No domain found, please set your upload preferences on the settings page",
+		"userBanned": "You are currently banned, please contact support if you think this is in error",
+		"unrecognisedIp": "Unrecognised IP address. Please login on the website and try again.",
+		"missingExtension": "The file must have an extension",
+		"premiumFileType": "You require an upgraded subscription to upload this file type",
+		"spamUploadBan": "You have been banned for uploading images too quickly, contact support to appeal",
+		"noDeletePermissions": "You do not have permission to delete another user's images",
+		"wipeInProgress": "Your images are already in the process of being wiped ({{percentage}}% complete)",
+		"noImagesInCollection": "No images within the provided collection",
+		"noValidImageIds": "No valid image IDs provided",
+		"noImagesTo": "You have no images to {{action}}",
+		"archiveInProgress": "You already have an archive being processed",
+		"archiveAlreadyRequested": "You have already requested an archive within the last 7 days",
+		"reportOwnImage": "You cannot report your own images",
+		"imageAlreadyReported": "You have already reported this image",
+		"cannotSetFileAsShowcase": "You can only set images or videos as showcase"
+	},
+	"mailAccountsApi": {
+		"invalidDomain": "Invalid domain within email",
+		"maxAccounts": "You have reached the maximum number of mail accounts you can have at one time",
+		"maxAliases": "You have reached the maximum number of mail aliases you can have at one time",
+		"emailInUse": "Email address already in use",
+		"aliasExists": "An alias with that email address already exists",
+		"invalidCharacters": "You have invalid characters in your email address"
+	},
+	"notificationsApi": {
+		"alreadyMarkedAsRead": "That notitfcation is already marked as read"
+	},
+	"pastesApi": {
+		"unsupportedLang": "The provided syntax highlighting language is not supported",
+		"unsupportedType": "The provided paste type is not supported",
+		"privateAndPasswordProtected": "A paste cannot be both private and password protected",
+		"successfullyWiped": "Successfully wiped {{count}} pastes",
+		"passwordRequired": "This paste requires a password to decrypt",
+		"incorrectPassword": "Incorrect password",
+		"notOwnPaste": "You can only delete your own pastes"
+	},
+	"shortenUrlApi": {
+		"invalidProtocol": "Invalid URL protocol. Must use HTTP or HTTPS",
+		"invalidIDCharacters": "ID can only contain English and numeric characters",
+		"selfRedirect": "URL cannot redirect to itself",
+		"successfullyWiped": "Successfully wiped {{count}} shortened URLs",
+		"notOwnShortenedUrl": "You can only delete your own shortened URLs"
+	},
+	"subscriptionsApi": {
+		"notSelected": "You have not selected a subscription group",
+		"activeSubscription": "You already have an active subscription",
+		"groupMismatch": "The provided user is currently subscribed to the {{groupName}} plan, so this plan cannot be gifted to them",
+		"selfGift": "You cannot gift yourself a subscription, add months on your subscription management page instead",
+		"userNotGiftable": "You cannot gift a subscription to this user right now, ask them to login first",
+		"noSubscriptionAddMonths": "You do not have an active subscription to add months to",
+		"noSubscriptionCancel": "You do not have an active subscription to cancel",
+		"noSubscriptionResume": "You do not have an active subscription to resume",
+		"pendingPlanChange": "You already have a pending plan change",
+		"noDefaultPaymentMethod": "You must have at least 1 payment method attached to continue this subscription",
+		"cannotPreviewFree": "You cannot preview a change to a free plan, cancel your subscription instead",
+		"cannotPreviewNoSubscription": "You cannot preview a change without an active subscription",
+		"cannotPreviewSamePlan": "You cannot preview a change to your current plan",
+		"cannotChangeAddedMonths": "You cannot switch plans right now because you have added months to your existing subscription. You can change your plan after {{date}}.",
+		"cannotChangeGifted": "You cannot switch plans right now because you are using a gifted subscription. You can change your plan after {{date}}."
+	},
+	"themesApi": {
+		"noDeletePermissions": "You do not have permission to delete this theme"
+	},
+	"userApi": {
+		"privateProfile": "This user's profile is private",
+		"noValidProperties": "No valid properties provided",
+		"multiLevelSubdomains": "Multi-level subdomains are not supported. Use - instead of .",
+		"subdomainsNotAllowed": "Subdomains aren't allowed on this domain",
+		"maxDomainCount": "You can only have up to {{count}} domains selected at once",
+		"minDomainCount": "You must have at least 2 domains selected at once",
+		"invalidDomain": "{{domain}} isn't a valid domain",
+		"invalidSubdomainDomain": "Subdomains aren't allowed on {{domain}}",
+		"autoChanceZero": "The provided values result in 'Auto' chances being 0%",
+		"randomChanceNot100": "Random domain chance values must add up to 100",
+		"invalidUrl": "{{property}} must be a valid HTTP or HTTPS URL",
+		"invalidEmbedFields": "All embed fields can't be blank. Please fill in some fields, or disable Discord Embeds",
+		"noAuthorOrTitle": "For Discord to embed correctly, an author or title is required",
+		"invalidTimeformat": "timeformat must be either 12h or 24h",
+		"cropAreaExceedsSize": "The crop area must not exceed image size",
+		"usernameChangeUnavailable": "You have already changed your username in the last 7 days",
+		"unsupportedLanguage": "Unsupported language provided",
+		"invalidConfigType": "Invalid config type provided",
+		"unprocessableGif": "We were unable to process this GIF",
+		"fileAgeNegative": "File age cannot be a negative value",
+		"fileAgeTooBig": "File age cannot be longer than 12 months"
+	},
+	"userApis": {
+		"MFAApi": {
+			"mfaNotInitalised": "MFA has not been initialised",
+			"mfaNotEnabled": "You do not have MFA enabled"
+		},
+		"paymentApi": {
+			"atLeastOnePaymentMethodRequired": "You must have at least 1 payment method with an active subscription",
+			"defaultPaymentMethod": "You cannot delete a payment method that is marked as default",
+			"amountDecimalPlaces": "Amount cannot have more than 2 decimal places",
+			"amountTooSmall": "Amount cannot be less than {{amount}}",
+			"amountTooLarge": "Amount cannot be greater than {{amount}}"
+		},
+		"uploadPresetsApi": {
+			"missingParameters": "There are missing parameters in your request",
+			"maxPresets": "You may only have up to 10 upload preference presets at a time"
+		}
+	}
+}

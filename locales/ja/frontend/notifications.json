@@ -1,0 +1,7 @@
+{
+	"allNotifications": "すべての通知",
+	"notificationCount": "{totalCount}} 通知 ({{unreadCount}} 未読)",
+	"all": "すべて",
+	"unread": "未読",
+	"read": "既読"
+}

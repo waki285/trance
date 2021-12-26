@@ -1,0 +1,40 @@
+{
+	"thanks": "購入ありがとうございます！",
+	"successfullySubscribed": "プラン{{plan}}の加入に成功しました。",
+	"successfullyGifted": "{{plan}}の利用権を{{username}}にプレゼントすることができました。",
+	"manageSubscription": "支払い方法の更新や購読の解除は、<a href=\"/user/settings/subscriptions\">購読管理</a>のページで行ってください。",
+	"payWithCard": "クレジット/デビットカードで支払う",
+	"subscriptionAlreadyActive": "すでにアクティブな月額プランをお持ちですので、月額プランを贈るにはユーザー名を入力する必要があります。",
+	"giftingASubscription": "サブスクリプションをプレゼントする",
+	"enterAUsername": "以下に他のユーザーの名前を入力すると、自分のアカウントに適用する代わりに、そのユーザーに定期購読をプレゼントすることができます。",
+	"oneTimeGift": "注意：このプレゼントは1ヶ月間有効で、自動更新はされません。",
+	"purchaseSummary": "購入概要",
+	"toPay": "支払う",
+	"startingSubscriptionToday": "注意：今日から購読を開始すると、あなたのカードに毎月自動的に${{amount}}が請求されます。支払いに使用するカードを変更したい場合、または購読をキャンセルしたい場合は、<a href=\"/user/settings/subscriptions\">subscription management</a> ページにアクセスしてください。",
+	"giftCredit": "注：お支払いを済ませると、ギフトの受取人のアカウントに1ヶ月分のクレジットが追加されます。これは、現在のクレジットに追加されます。",
+	"subscribeFor": "月額${{amount}}で購読する。",
+	"giftFor": "プレゼントを${{amount}}で購入する",
+	"purchasePlan": "{{plan}}を購入する (${{amount}})",
+	"errorCreatingSubscription": "購読の作成に何か問題があったようです",
+	"errorGiftingSubscription": "定期購入のプレゼントで何か問題が発生しました",
+	"cannotGiftYourself": "月額プランの管理ページで、月額プランに月数を追加することができます。",
+	"errorCheckingUsername": "ユーザー名のチェックに失敗しました",
+	"payWithCrypto": "暗号通貨で支払う",
+	"startCryptoPayment": "暗号通貨による決済を開始する",
+	"sendCryptoAmount": "<code>{{amount}}</code>{{currency}}を以下のアドレスに送信してください。",
+	"cryptoStatus": {
+		"NEW": "送金待ち",
+		"PENDING": "送金処理中",
+		"COMPLETED": "完了",
+		"EXPIRED": "期限切れ",
+		"UNRESOLVED": {
+			"UNDERPAID": "金額不足",
+			"OVERPAID": "金額超過",
+			"MULTIPLE": "複数回払いの検出"
+		}
+	},
+	"redirectNotice": "お支払いが確認されると、自動的にリダイレクトされます",
+	"selectPaymentMethod": "支払い方法の選択",
+	"creditDebitCard": "クレジット/デビットカード",
+	"payWithDigitalWallet": "デジタルウォレットで支払う"
+}

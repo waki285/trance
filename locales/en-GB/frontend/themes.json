@@ -1,0 +1,19 @@
+{
+	"themeGalleryHeader": "Download ShareX image effects and app themes to customise your experience, or click the button below to add one of your own.",
+	"addTheme": "Add Theme",
+	"addThemeHeader": "If you have made an image effect which can be applied to screenshots, or a theme for the ShareX application itself, you can submit it here to be shared with the community.",
+	"duplicateWarning": "Note: Submissions will be checked by admins to ensure they aren't duplicates or unsuitable for hosting on the site. Please be patient once you've submitted.",
+	"beginAddTheme": "To begin, please choose which type of theme you want to upload:",
+	"imageEffect": "Image Effect",
+	"appTheme": "App Theme",
+	"themeName": "Theme Name",
+	"submitTheme": "Submit Theme",
+	"takeEffectScreenshot": "Please take a screenshot of the image displayed below with your theme enabled",
+	"takeAppThemeScreenshot": "Please take a screenshot of your main ShareX app page when you open the application to showcase your app theme.",
+	"uploadAppThemeFile": "Finally, open ShareX and go to Application Settings > Theme. Select your theme from the dropdown, then click Export > Save to file. Upload that file below",
+	"uploadEffectScreenshot": "Next, upload the screenshot below. This will be used as the preview image in the theme gallery",
+	"uploadEffectFile": "Finally, export the effect from ShareX by clicking packager, saving the .sxie file, then upload it below",
+	"themeReview": "Your theme will be reviewed by an admin to ensure it is suitable and works correctly. This typically takes less than 24 hours. You will receive a notification once your theme has been approved or declined.",
+	"provideTitle": "You must provide a title",
+	"provideImageAndFile": "You need to provide a preview image and theme file"
+}

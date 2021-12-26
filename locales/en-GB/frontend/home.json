@@ -1,0 +1,15 @@
+{
+	"motd": "Message of the Day",
+	"uploadsToday": "Uploads Today",
+	"loggedInToday": "Logged In Today",
+	"registeredToday": "Registered Today",
+	"quickActions": "Quick Actions",
+	"readTheRules": "Read our rules",
+	"getYourConfigs": "Get your Configs",
+	"changeEmbedSettings": "Change Embed Settings",
+	"updateDomainPreferences": "Update Domain Preferences",
+	"purchaseASubscription": "Purchase a Subscription",
+	"helpSupportUs": "If you'd like to help support us, whilst gaining access to exclusive features, you can",
+	"plansDescription": "We offer {{planCount}} plans",
+	"dailyUploads": "Daily Uploads"
+}

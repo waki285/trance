@@ -1,0 +1,10 @@
+{
+	"donateForInvites": "招待コードを寄付する",
+	"donateHeader": "サービスの成長を支援し、友人と共有するための招待コードを受け取ることができます。",
+	"invitesAddedShortly": "招待コードはすぐに追加されます。",
+	"processPaymentFailure": "支払い処理に問題が発生しました",
+	"noDonationAmount": "寄付する金額を記入する必要があります",
+	"minimumDonationAmount": "寄付金の最低額は $2.00 です。",
+	"maximumDonationAmount": "寄付金の上限は $50.00 です。",
+	"selectDonationAmount": "下記より寄付金額をお選びください。お届けする招待コードの枚数は右記の通りです。"
+}

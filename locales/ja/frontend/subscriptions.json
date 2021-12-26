@@ -1,0 +1,14 @@
+{
+	"comparePlans": "また、アップグレードすることで新機能を利用することもできます。",
+	"acceptCard": "現在、ほとんどのクレジットカード/デビットカードでのお支払いが可能です。",
+	"useAReseller": "他の支払い方法でサブスクリプションを購入したい場合は、再販業者向けの<a href=\"https://discord.upload.systems\" target=\"_blank\">Discord Server</a>をお気軽にご確認ください。",
+	"viewDetails": "有料機能の具体的な内容は<a href=\"/subscription/details\">こちら</a>でご覧いただけます。",
+	"subscriptionFeatures": "サブスクリプション機能",
+	"inDepth": "このページでは、有料プランに含まれる機能について、より詳しくご紹介しています。",
+	"featuresBelow": "各機能の下には、その機能がどのプランに含まれるかが表示されます。",
+	"availableIn": "で利用可能です。",
+	"incrementalPlan": "計画に基づく増額",
+	"selectThisPlan": "このプランを選択する",
+	"selectAPlan": "プランの選択",
+	"proceedToPayment": "支払いに進む"
+}

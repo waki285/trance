@@ -1,0 +1,14 @@
+{
+	"uploadedBy": "Uploaded By",
+	"uploadedAt": "Uploaded At",
+	"reportUpload": "Report Upload",
+	"reasonForReport": "Reason for Report",
+	"falseReports": "Making false reports will lead to a ban from the site",
+	"submitReport": "Submit Report",
+	"dmca": "DMCA",
+	"gore": "Gore",
+	"u18": "NSFW under 18",
+	"other": "Other",
+	"anonymousUser": "Anonymous User",
+	"fileWarning": "This upload has not been scanned for malicious content, and as a result you should only download the file if you were sent the link by someone you trust. If you believe that this file is malicious, please login and use the Report button which will be displayed below, or email contact@upload.systems."
+}

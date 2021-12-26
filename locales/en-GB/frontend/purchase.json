@@ -1,0 +1,40 @@
+{
+	"thanks": "Thank you for your purchase!",
+	"successfullySubscribed": "You have successfully subscribed to the {{plan}} plan.",
+	"successfullyGifted": "You have successfully gifted a {{plan}} subscription to {{username}}.",
+	"manageSubscription": "To update your payment method or cancel your subscription, visit the <a href=\"/user/settings/subscriptions\">subscription management</a> page.",
+	"payWithCard": "Pay with Credit/Debit Card",
+	"subscriptionAlreadyActive": "You already have an active subscription, so you must enter a username to gift a subscription",
+	"giftingASubscription": "Gifting a subscription",
+	"enterAUsername": "Enter the name of another user below to gift a subscription to them, instead of applying it to your own account.",
+	"oneTimeGift": "Note: This is a one time gift which will last for 1 month, and will not auto-renew.",
+	"purchaseSummary": "Purchase Summary",
+	"toPay": "To Pay",
+	"startingSubscriptionToday": "Note: Starting a subscription today will mean your card is automatically charged ${{amount}} each month. If you want to change which card is used for payment, or to cancel your subscription, visit the <a href=\"/user/settings/subscriptions\">subscription management</a> page.",
+	"giftCredit": "Note: 1 month of credit will be added to the gift recipient's account once you pay. This will stack on top of any current credit.",
+	"subscribeFor": "Subscribe for ${{amount}}/mo",
+	"giftFor": "Purchase gift for ${{amount}}",
+	"purchasePlan": "Purchase {{plan}} (${{amount}})",
+	"errorCreatingSubscription": "Something went wrong creating your subscription",
+	"errorGiftingSubscription": "Something went wrong gifting your subscription",
+	"cannotGiftYourself": "You cannot gift a subscription to yourself, instead add months to your subscription on the subscription management page",
+	"errorCheckingUsername": "Something went wrong checking username",
+	"payWithCrypto": "Pay with Cryptocurrency",
+	"startCryptoPayment": "Start cryptocurrency payment",
+	"sendCryptoAmount": "Send <code>{{amount}}</code> {{currency}} to the address below",
+	"cryptoStatus": {
+		"NEW": "Awaiting Payment",
+		"PENDING": "Payment Detected",
+		"COMPLETED": "Completed",
+		"EXPIRED": "Expired",
+		"UNRESOLVED": {
+			"UNDERPAID": "Underpaid",
+			"OVERPAID": "Overpaid",
+			"MULTIPLE": "Multiple Payments Detected"
+		}
+	},
+	"redirectNotice": "You will automatically be redirected once payment has been confirmed",
+	"selectPaymentMethod": "Select payment method",
+	"creditDebitCard": "Credit/Debit Card",
+	"payWithDigitalWallet": "Pay with digital wallet"
+}
